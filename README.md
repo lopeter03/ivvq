@@ -5,7 +5,8 @@
 This project demonstrates the application of the IVVQ (Integration, Verification, Validation, Qualification) cycle to a simple API.  
 It includes requirements, specifications, traceability, automated tests, and final validation/acceptance reports.
 
-![API IVVQ Integration Diagram](https://raw.githubusercontent.com/lopeter03/ivvq/main/docs/images/integration_diagram.png)
+![API IVVQ Integration Diagram](integration_diagram.png)
+
 
 
 *Figure 1 — Integration of Flask, Ansible, Pytest, Documentation, and Reports*
