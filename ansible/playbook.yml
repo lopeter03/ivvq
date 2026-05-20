@@ -1,0 +1,13 @@
+---
+- name: Deploy API and run tests
+  hosts: localhost
+  tasks:
+    - name: Start API
+      shell: nohup python3 api/app.py &
+      args:
+        chdir: "{{ playbook_dir }}/.."
+
+    - name: Run tests
+      shell: pytest tests/test_api.py --junitxml=reports/results.xml -s
+      args:
+        chdir: "{{ playbook_dir }}/.."
