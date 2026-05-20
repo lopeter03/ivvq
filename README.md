@@ -5,11 +5,13 @@
 This project demonstrates the application of the IVVQ (Integration, Verification, Validation, Qualification) cycle to a simple API.  
 It includes requirements, specifications, traceability, automated tests, and final validation/acceptance reports.
 
-![API IVVQ Integration Diagram](integration_diagram.png)
+## 📊 Integration Diagram
 
+The system integration diagram is included in the repository at:
 
+`docs/images/integration_diagram.png`
 
-*Figure 1 — Integration of Flask, Ansible, Pytest, Documentation, and Reports*
+👉 Please open this file directly in GitHub to view the architecture.
 
 ### Quick Flow Explanation
 - **Ansible** deploys and configures the **Flask API** at `/api/hello`.  

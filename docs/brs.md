@@ -65,10 +65,14 @@ This project demonstrates the application of the IVVQ (Integration, Verification
 ### Purpose
 This appendix provides a high‑level view of how the technical components integrate to support the IVVQ process for the API mini‑project. It complements the business requirements by showing the end‑to‑end architecture.
 
-### Diagram
-![API IVVQ Integration Diagram](docs/images/integration_diagram.png)
+### 📊 Integration Diagram
 
-*Figure A‑1 — Integration of Flask, Ansible, Pytest, Documentation, and Reports*
+The system integration diagram is included in the repository at:
+
+`docs/images/integration_diagram.png`
+
+👉 Please open this file directly in GitHub to view the architecture.
+
 
 ### Explanation
 - **Flask API** — core application providing endpoints for validation.  
