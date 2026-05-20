@@ -16,17 +16,16 @@ It includes requirements, specifications, traceability, automated tests, and fin
 - Reports feed into **Validation & Acceptance documents**, ensuring traceability back to **Business Requirements**.
 
 ---
+## 📂 Folder Structure
 
-## Folder Structure
-```
 project/
- ├── docs/                # BRS, FS, Traceability Matrix, Validation Report, Acceptance Report
- ├── tests/               # test_api.py, run_all_tests.py
- ├── tests/reports/       # results.xml, test_execution_detailed.md
- └── api/                 # demo API code (Flask or similar)
-```
-
----
+├── README.md             # Root project overview (shown on GitHub)
+├── ansible/              # Deployment automation (playbook.yml)
+├── api/                  # Demo API code (Flask app.py)
+├── docs/                 # BRS, FS, Traceability Matrix, Validation Report, Acceptance Report, Test Plan, Test Execution
+│   └── images/           # Diagrams (integration_diagram.png)
+└── tests/                # test_api.py, run_all_tests.py
+└── reports/          # results.xml, test_execution_detailed.md
 
 ## How to Run
 1. **Start the API**  
